@@ -1,0 +1,1 @@
+import('./main.js').catch(error=>{console.error(error);const message=document.querySelector('#loading');message.hidden=false;message.textContent='No se pudo iniciar la vista 3D. Recarga la página y comprueba que WebGL esté habilitado en tu navegador.';});
